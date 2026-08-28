@@ -1,0 +1,51 @@
+{
+  "hr_pto": {
+    "brief": "Internal HR bot for PTO with Workday and SharePoint policies, Finnish employees in Teams.",
+    "expect": {
+      "audience": "internal",
+      "region": "eu-fi",
+      "min_tier": 2,
+      "systems": ["Workday"],
+      "auth_contains": "Entra",
+      "env_contains": "Europe",
+      "auth_forbids": "No authentication",
+      "knowledge_contains": "SharePoint",
+      "channels_contains": "Microsoft Teams"
+    }
+  },
+  "autonomous_email": {
+    "brief": "Autonomous agent that triggers when email arrives and creates ServiceNow tickets. Human-in-the-loop approval required.",
+    "expect": {
+      "audience": "internal",
+      "min_tier": 4,
+      "systems": ["ServiceNow"],
+      "pattern_contains": "Autonomous",
+      "tools_any": ["trigger", "Event"],
+      "auth_forbids": "No authentication",
+      "env_contains": "Europe"
+    }
+  },
+  "multi_agent_router": {
+    "brief": "Multi-agent router with specialist child agents for IT, HR, and Finance in Teams for Finnish enterprise.",
+    "expect": {
+      "audience": "internal",
+      "min_tier": 5,
+      "pattern_contains": "Multi-agent",
+      "tools_any": ["Connected child"],
+      "auth_contains": "Entra",
+      "env_contains": "Europe"
+    }
+  },
+  "public_faq": {
+    "brief": "Public website customer-facing FAQ agent using our public website knowledge, Finnish and English.",
+    "expect": {
+      "audience": "external",
+      "public_facing": true,
+      "min_tier": 1,
+      "channels_contains": "Direct Line",
+      "knowledge_contains": "Public website",
+      "auth_contains": "Authenticate",
+      "env_contains": "Europe"
+    }
+  }
+}

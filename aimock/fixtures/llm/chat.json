@@ -1,0 +1,45 @@
+{
+  "fixtures": [
+    {
+      "match": {
+        "userMessage": "What is DLP?",
+        "model": "gpt-4o"
+      },
+      "response": {
+        "content": "DLP (Data Loss Prevention) in Copilot Studio is governed by Power Platform DLP policies in the Power Platform admin center. MCP tools and HTTP requests are classified as connectors and follow those policies. See learn.microsoft.com for the current DLP connector names."
+      },
+      "latency": 30
+    },
+    {
+      "match": {
+        "userMessage": "Design a Finnish IT helpdesk",
+        "model": "gpt-4o"
+      },
+      "response": {
+        "content": "Tier 2 self-service IT helpdesk for Finland: Europe environment, Entra authentication via Teams, ServiceNow connector for tickets, SharePoint knowledge base, Teams channel. Track metrics in App Insights and review DLP policies before go-live."
+      },
+      "latency": 30
+    },
+    {
+      "match": {
+        "userMessage": "What is the weather"
+      },
+      "model": "gpt-4o",
+      "response": {
+        "content": "",
+        "toolCalls": [
+          { "name": "get_weather", "arguments": { "city": "Helsinki" }, "id": "call_1" }
+        ],
+        "finishReason": "tool_calls"
+      },
+      "latency": 30
+    },
+    {
+      "match": {},
+      "response": {
+        "content": "Deterministic fallback from aimock: no specific fixture matched, so you get this canned reply."
+      },
+      "latency": 10
+    }
+  ]
+}

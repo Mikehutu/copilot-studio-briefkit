@@ -1,0 +1,5 @@
+{
+  "llm": {
+    "fixtures": "./aimock/fixtures/llm"
+  }
+}

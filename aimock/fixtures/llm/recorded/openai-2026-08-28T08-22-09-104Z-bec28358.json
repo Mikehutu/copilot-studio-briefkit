@@ -1,0 +1,16 @@
+{
+  "fixtures": [
+    {
+      "match": {
+        "userMessage": "What is Entra ID authentication in Copilot Studio? One short answer.",
+        "model": "deepseek-v4-flash",
+        "turnIndex": 0,
+        "hasToolResult": false
+      },
+      "response": {
+        "content": "Entra ID authentication in Copilot Studio lets you secure your",
+        "reasoning": "1.  The user asks for a \"one short answer\" about what Entra ID authentication is in Copilot Studio.\n2.  Entra ID (formerly Azure AD) authentication in Copilot Studio refers to using Microsoft Entra ID to authenticate users who interact with a custom copilot, allowing it to access protected resources (like SharePoint, Dataverse, or custom APIs) on behalf of the signed-in user, enforcing single sign-on (SSO) and security policies.\n3.  Keep it concise. One short answer."
+      }
+    }
+  ]
+}

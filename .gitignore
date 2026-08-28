@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+.next/
+dist/
+coverage/
+
+# Rust
+target/
+
+# Go
+bin/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets / env
+.env
+.env.*
+!.env.example
+
+# Local data
+*.db
+*.sqlite
+data/
+runs/
+*.log
+out/
+docs/validation/latest.md
+docs/benchmark/packs/
+docs/benchmark/results.json
+
+# Agent local
+.hermes/
+.claude/settings.local.*

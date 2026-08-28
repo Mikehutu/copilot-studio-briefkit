@@ -1,0 +1,22 @@
+[
+  {"id": "B01", "title": "FI IT helpdesk", "brief": "Finnish enterprise IT helpdesk agent for employees in Teams. Password reset guidance, ServiceNow tickets, SharePoint IT docs. EU only."},
+  {"id": "B02", "title": "HR PTO Workday", "brief": "Internal HR bot for PTO with Workday and SharePoint policies, Finnish employees in Teams, Swedish bilingual."},
+  {"id": "B03", "title": "Autonomous email tickets", "brief": "Autonomous agent that triggers when email arrives and creates ServiceNow tickets. Human-in-the-loop approval required. Finland."},
+  {"id": "B04", "title": "Multi-agent router", "brief": "Multi-agent router with specialist child agents for IT, HR, and Finance in Teams for Finnish enterprise."},
+  {"id": "B05", "title": "Public FAQ", "brief": "Public website customer-facing FAQ agent using our public website knowledge, Finnish and English."},
+  {"id": "B06", "title": "Invoice approval", "brief": "Internal finance agent in Teams for invoice handling and approval workflow with Dynamics 365 and SharePoint. EU."},
+  {"id": "B07", "title": "Sales CRM", "brief": "Internal sales assistant in Teams using Salesforce and SharePoint playbooks for order status. Finland."},
+  {"id": "B08", "title": "Jira engineering", "brief": "Internal engineering support agent in Teams creating Jira tickets from SharePoint runbooks. EU."},
+  {"id": "B09", "title": "SAP procurement", "brief": "Internal procurement agent for SAP purchase order status and approval workflow in Teams. Finland."},
+  {"id": "B10", "title": "Zendesk CS internal", "brief": "Internal customer-support coach in Teams using Zendesk and SharePoint macros. EU."},
+  {"id": "B11", "title": "Dataverse case", "brief": "Internal case agent using Dataverse and SharePoint knowledge in Teams. Finland."},
+  {"id": "B12", "title": "Outlook meeting", "brief": "Internal scheduling agent using Outlook and Teams for meeting prep from SharePoint. EU."},
+  {"id": "B13", "title": "Computer use legacy", "brief": "Internal ops agent that must use computer use / legacy UI because the mainframe has no API. Teams, Finland, HITL."},
+  {"id": "B14", "title": "MCP tools", "brief": "Internal knowledge agent in Teams that should use MCP tools against an approved server plus SharePoint. Finland."},
+  {"id": "B15", "title": "HubSpot marketing", "brief": "Internal marketing ops agent in Teams using HubSpot and SharePoint campaign docs. EU."},
+  {"id": "B16", "title": "Partner B2B portal", "brief": "B2B partner portal agent on custom website / Direct Line with SharePoint knowledge. Finland."},
+  {"id": "B17", "title": "Anonymous web FAQ", "brief": "Anonymous public website FAQ for product manuals and PDF documents. External customers."},
+  {"id": "B18", "title": "M365 declarative", "brief": "Declarative agent in Microsoft 365 Copilot for employees using SharePoint policies. Finland."},
+  {"id": "B19", "title": "Event-driven file", "brief": "Autonomous event-driven agent that triggers on SharePoint file upload and creates Dataverse records with human approval. EU."},
+  {"id": "B20", "title": "Oracle HRIS", "brief": "Internal HR time-off agent with Oracle and SharePoint leave policy in Teams. Finland."}
+]

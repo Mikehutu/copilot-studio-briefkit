@@ -1,0 +1,24 @@
+{
+  "version": "0.3.0",
+  "updated": "2026-08-28",
+  "files": [
+    "SOURCES.md",
+    "capabilities-tiers.md",
+    "authentication.md",
+    "dlp-governance.md",
+    "mcp-tools.md",
+    "knowledge-sources.md",
+    "eu-finland.md",
+    "alm-programmatic.md",
+    "channels-publishing.md",
+    "licensing.md",
+    "generative-orchestration.md",
+    "computer-use.md",
+    "connectors-catalog.md",
+    "agent-flows-power-automate.md",
+    "integrations-escalation.md",
+    "observability-metrics.md",
+    "ppac-governance.md"
+  ],
+  "primary_truth": "https://learn.microsoft.com/en-us/microsoft-copilot-studio/"
+}
