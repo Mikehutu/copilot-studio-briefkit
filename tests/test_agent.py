@@ -23,6 +23,29 @@ def test_parse_it_helpdesk_fi():
     assert "Microsoft Teams" in i.channels
 
 
+def test_teams_sharepoint_outlook_are_not_systems():
+    """Channels (Teams) and knowledge sources (SharePoint) and mail triage
+    (Outlook) must never surface as connector-action systems. Regression for
+    the spurious 'Connector actions for Microsoft Teams / SharePoint' tools.
+    """
+    i = parse_brief(
+        "Internal HR bot in Teams with SharePoint policies and Outlook email triage, PTO via Workday."
+    )
+    assert "Microsoft Teams" in i.channels
+    assert "SharePoint" in i.knowledge_hints
+    assert "Workday" in i.systems
+    assert "Microsoft Teams" not in i.systems
+    assert "SharePoint" not in i.systems
+    assert "Outlook" not in i.systems
+
+    a = design(i)
+    tool_blob = " ".join(a.tools)
+    assert "Connector actions for Microsoft Teams" not in tool_blob
+    assert "Connector actions for SharePoint" not in tool_blob
+    assert "Connector actions for Outlook" not in tool_blob
+    assert "Connector actions for Workday" in tool_blob
+
+
 def test_design_defaults_entra_and_eu():
     i = parse_brief("Internal HR bot for PTO with Workday and SharePoint policies")
     a = design(i)

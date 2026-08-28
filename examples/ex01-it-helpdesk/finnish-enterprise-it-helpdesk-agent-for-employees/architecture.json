@@ -9,9 +9,7 @@
       "fi"
     ],
     "systems": [
-      "ServiceNow",
-      "SharePoint",
-      "Microsoft Teams"
+      "ServiceNow"
     ],
     "actions": [
       "password_reset_guidance",
@@ -40,8 +38,6 @@
   ],
   "tools": [
     "Connector actions for ServiceNow (see connector reference)",
-    "Connector actions for SharePoint (see connector reference)",
-    "Connector actions for Microsoft Teams (see connector reference)",
     "Create/update ticket via ITSM connector or agent flow",
     "Guided topic for password reset (no secret storage)"
   ],

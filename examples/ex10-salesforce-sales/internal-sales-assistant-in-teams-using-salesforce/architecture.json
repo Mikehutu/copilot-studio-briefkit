@@ -9,8 +9,7 @@
       "fi"
     ],
     "systems": [
-      "Salesforce",
-      "Microsoft Teams"
+      "Salesforce"
     ],
     "actions": [
       "order_status",
@@ -39,7 +38,6 @@
   ],
   "tools": [
     "Connector actions for Salesforce (see connector reference)",
-    "Connector actions for Microsoft Teams (see connector reference)",
     "Agent flow for multi-step deterministic logic + approvals"
   ],
   "channels": [

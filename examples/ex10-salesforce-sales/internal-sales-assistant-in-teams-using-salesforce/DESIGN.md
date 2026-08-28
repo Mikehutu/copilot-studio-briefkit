@@ -12,7 +12,7 @@ Internal sales assistant in Teams using Salesforce for customer data and order s
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: Salesforce, Microsoft Teams
+- Systems: Salesforce
 - Actions: order_status, reporting
 - Missing fields: none flagged
 
@@ -30,7 +30,6 @@ Internal sales assistant in Teams using Salesforce for customer data and order s
 
 ## Tools / actions
 - Connector actions for Salesforce (see connector reference)
-- Connector actions for Microsoft Teams (see connector reference)
 - Agent flow for multi-step deterministic logic + approvals
 
 ## Risks

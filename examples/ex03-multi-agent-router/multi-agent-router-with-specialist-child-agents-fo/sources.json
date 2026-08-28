@@ -1,7 +1,5 @@
 {
   "sources": [
-    "https://learn.microsoft.com/en-us/connectors/connector-reference/",
-    "https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview",
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents",
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",

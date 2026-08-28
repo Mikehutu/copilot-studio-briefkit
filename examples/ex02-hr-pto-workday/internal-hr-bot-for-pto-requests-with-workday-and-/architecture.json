@@ -10,9 +10,7 @@
       "sv"
     ],
     "systems": [
-      "Workday",
-      "SharePoint",
-      "Microsoft Teams"
+      "Workday"
     ],
     "actions": [
       "pto_request"
@@ -40,8 +38,6 @@
   ],
   "tools": [
     "Connector actions for Workday (see connector reference)",
-    "Connector actions for SharePoint (see connector reference)",
-    "Connector actions for Microsoft Teams (see connector reference)",
     "HRIS connector: balance check + submit request"
   ],
   "channels": [

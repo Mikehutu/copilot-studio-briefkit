@@ -9,7 +9,6 @@
       "fi"
     ],
     "systems": [
-      "Microsoft Teams",
       "Zendesk"
     ],
     "actions": [
@@ -38,7 +37,6 @@
     "SharePoint"
   ],
   "tools": [
-    "Connector actions for Microsoft Teams (see connector reference)",
     "Connector actions for Zendesk (see connector reference)",
     "Create/update ticket via ITSM connector or agent flow",
     "Agent flow for multi-step deterministic logic + approvals"

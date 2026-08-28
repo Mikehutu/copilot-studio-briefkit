@@ -11,7 +11,7 @@ Human-executable steps. This pack does **not** deploy to your tenant automatical
 - Create → New agent → Name: `Multi-agent router with specialist child agents for IT HR an`.
 - Enable generative orchestration: **True** (required for MCP/CUA/multi-tool planning).
   Docs: https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions
-- If starter fits: Employee Self-Service (IT or HR) if applicable.
+- If starter fits: skip templates; blank agent.
   ESS: https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview
 - Write strong **descriptions** for every topic/tool/knowledge source (planner uses them).
 
@@ -35,7 +35,6 @@ Human-executable steps. This pack does **not** deploy to your tenant automatical
 - Docs: https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio
 
 ### 5. Tools
-- Configure: Connector actions for Microsoft Teams (see connector reference)
 - Configure: Connected child agents with handoff rules
 - Prefer connector actions; use agent flows for multi-step + approvals.
 - Ladder: prebuilt connector then agent flow then custom connector (OpenAPI) then HTTP then MCP then CUA.

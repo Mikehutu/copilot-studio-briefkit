@@ -8,10 +8,7 @@
       "en",
       "fi"
     ],
-    "systems": [
-      "SharePoint",
-      "Microsoft Teams"
-    ],
+    "systems": [],
     "actions": [
       "approval_workflow"
     ],
@@ -37,8 +34,6 @@
     "SharePoint"
   ],
   "tools": [
-    "Connector actions for SharePoint (see connector reference)",
-    "Connector actions for Microsoft Teams (see connector reference)",
     "Agent flow for multi-step deterministic logic + approvals",
     "MCP server tools (generative orchestration required; classify MCP connector in DLP)"
   ],

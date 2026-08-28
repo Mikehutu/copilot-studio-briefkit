@@ -35,7 +35,6 @@ Human-executable steps. This pack does **not** deploy to your tenant automatical
 - Docs: https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio
 
 ### 5. Tools
-- Configure: Connector actions for Microsoft Teams (see connector reference)
 - Configure: Connector actions for Zendesk (see connector reference)
 - Configure: Create/update ticket via ITSM connector or agent flow
 - Configure: Agent flow for multi-step deterministic logic + approvals

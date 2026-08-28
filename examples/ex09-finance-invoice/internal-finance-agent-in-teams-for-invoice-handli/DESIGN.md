@@ -12,7 +12,7 @@ Internal finance agent in Teams for invoice handling and approval workflow with 
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: Microsoft Teams, Outlook, Dataverse
+- Systems: Dataverse
 - Actions: invoice_handling, approval_workflow, email_triage
 - Missing fields: none flagged
 
@@ -29,8 +29,6 @@ Internal finance agent in Teams for invoice handling and approval workflow with 
 - SharePoint
 
 ## Tools / actions
-- Connector actions for Microsoft Teams (see connector reference)
-- Connector actions for Outlook (see connector reference)
 - Connector actions for Dataverse (see connector reference)
 - Agent flow for multi-step deterministic logic + approvals
 

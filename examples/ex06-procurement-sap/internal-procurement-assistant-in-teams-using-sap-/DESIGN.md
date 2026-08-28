@@ -12,7 +12,7 @@ Internal procurement assistant in Teams using SAP for purchase order status and 
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: SAP, Microsoft Teams
+- Systems: SAP
 - Actions: invoice_handling, order_status, approval_workflow, reporting
 - Missing fields: none flagged
 
@@ -30,7 +30,6 @@ Internal procurement assistant in Teams using SAP for purchase order status and 
 
 ## Tools / actions
 - Connector actions for SAP (see connector reference)
-- Connector actions for Microsoft Teams (see connector reference)
 - Agent flow for multi-step deterministic logic + approvals
 
 ## Risks

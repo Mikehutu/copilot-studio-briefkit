@@ -36,7 +36,6 @@ Human-executable steps. This pack does **not** deploy to your tenant automatical
 
 ### 5. Tools
 - Configure: Connector actions for Salesforce (see connector reference)
-- Configure: Connector actions for Microsoft Teams (see connector reference)
 - Configure: Agent flow for multi-step deterministic logic + approvals
 - Prefer connector actions; use agent flows for multi-step + approvals.
 - Ladder: prebuilt connector then agent flow then custom connector (OpenAPI) then HTTP then MCP then CUA.

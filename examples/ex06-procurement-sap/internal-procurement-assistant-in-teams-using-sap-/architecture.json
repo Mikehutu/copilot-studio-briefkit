@@ -9,8 +9,7 @@
       "fi"
     ],
     "systems": [
-      "SAP",
-      "Microsoft Teams"
+      "SAP"
     ],
     "actions": [
       "invoice_handling",
@@ -41,7 +40,6 @@
   ],
   "tools": [
     "Connector actions for SAP (see connector reference)",
-    "Connector actions for Microsoft Teams (see connector reference)",
     "Agent flow for multi-step deterministic logic + approvals"
   ],
   "channels": [

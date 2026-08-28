@@ -36,8 +36,6 @@ Human-executable steps. This pack does **not** deploy to your tenant automatical
 
 ### 5. Tools
 - Configure: Connector actions for ServiceNow (see connector reference)
-- Configure: Connector actions for SharePoint (see connector reference)
-- Configure: Connector actions for Microsoft Teams (see connector reference)
 - Configure: Create/update ticket via ITSM connector or agent flow
 - Configure: Guided topic for password reset (no secret storage)
 - Prefer connector actions; use agent flows for multi-step + approvals.

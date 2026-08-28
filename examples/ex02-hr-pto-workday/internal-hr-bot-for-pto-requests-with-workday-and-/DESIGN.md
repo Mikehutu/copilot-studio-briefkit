@@ -12,7 +12,7 @@ Internal HR bot for PTO requests with Workday and SharePoint policies, Teams, Fi
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi, sv
-- Systems: Workday, SharePoint, Microsoft Teams
+- Systems: Workday
 - Actions: pto_request
 - Missing fields: none flagged
 
@@ -30,8 +30,6 @@ Internal HR bot for PTO requests with Workday and SharePoint policies, Teams, Fi
 
 ## Tools / actions
 - Connector actions for Workday (see connector reference)
-- Connector actions for SharePoint (see connector reference)
-- Connector actions for Microsoft Teams (see connector reference)
 - HRIS connector: balance check + submit request
 
 ## Risks

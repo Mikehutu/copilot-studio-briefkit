@@ -8,9 +8,7 @@
       "en",
       "fi"
     ],
-    "systems": [
-      "Microsoft Teams"
-    ],
+    "systems": [],
     "actions": [],
     "knowledge_hints": [
       "SharePoint"
@@ -34,7 +32,6 @@
     "SharePoint"
   ],
   "tools": [
-    "Connector actions for Microsoft Teams (see connector reference)",
     "Connected child agents with handoff rules"
   ],
   "channels": [
@@ -50,8 +47,6 @@
     "Use Dev/Test/Prod EU environments and managed solutions for production"
   ],
   "sources": [
-    "https://learn.microsoft.com/en-us/connectors/connector-reference/",
-    "https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview",
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents",
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",
@@ -60,5 +55,5 @@
     "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
     "https://learn.microsoft.com/en-us/power-platform/admin/regions-overview"
   ],
-  "starter_template": "Employee Self-Service (IT or HR) if applicable"
+  "starter_template": null
 }

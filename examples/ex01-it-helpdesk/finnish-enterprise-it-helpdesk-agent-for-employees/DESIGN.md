@@ -12,7 +12,7 @@ Finnish enterprise IT helpdesk agent for employees in Teams. Password reset guid
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: ServiceNow, SharePoint, Microsoft Teams
+- Systems: ServiceNow
 - Actions: password_reset_guidance, create_or_check_ticket
 - Missing fields: none flagged
 
@@ -30,8 +30,6 @@ Finnish enterprise IT helpdesk agent for employees in Teams. Password reset guid
 
 ## Tools / actions
 - Connector actions for ServiceNow (see connector reference)
-- Connector actions for SharePoint (see connector reference)
-- Connector actions for Microsoft Teams (see connector reference)
 - Create/update ticket via ITSM connector or agent flow
 - Guided topic for password reset (no secret storage)
 

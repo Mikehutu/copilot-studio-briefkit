@@ -36,8 +36,6 @@ Human-executable steps. This pack does **not** deploy to your tenant automatical
 
 ### 5. Tools
 - Configure: Connector actions for Workday (see connector reference)
-- Configure: Connector actions for SharePoint (see connector reference)
-- Configure: Connector actions for Microsoft Teams (see connector reference)
 - Configure: HRIS connector: balance check + submit request
 - Prefer connector actions; use agent flows for multi-step + approvals.
 - Ladder: prebuilt connector then agent flow then custom connector (OpenAPI) then HTTP then MCP then CUA.

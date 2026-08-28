@@ -12,7 +12,7 @@ Multi-agent router with specialist child agents for IT, HR and finance support, 
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: Microsoft Teams
+- Systems: (none named — confirm)
 - Actions: (knowledge only)
 - Missing fields: none flagged
 
@@ -22,14 +22,13 @@ Multi-agent router with specialist child agents for IT, HR and finance support, 
 | Environment region | Europe (EU/EFTA datacenters; align tenant + environments for EU Data Boundary) |
 | Authentication | Authenticate with Microsoft (Entra via Teams/M365) |
 | Generative orchestration | True |
-| Starter template | Employee Self-Service (IT or HR) if applicable |
+| Starter template | Custom |
 | Channels | Microsoft Teams |
 
 ## Knowledge sources
 - SharePoint
 
 ## Tools / actions
-- Connector actions for Microsoft Teams (see connector reference)
 - Connected child agents with handoff rules
 
 ## Risks
@@ -39,8 +38,6 @@ Multi-agent router with specialist child agents for IT, HR and finance support, 
 - Internal-only agent. Keep Teams/M365 + Entra auth; review DLP for listed connectors.
 
 ## Official sources
-- https://learn.microsoft.com/en-us/connectors/connector-reference/
-- https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview
 - https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention
 - https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents
 - https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication

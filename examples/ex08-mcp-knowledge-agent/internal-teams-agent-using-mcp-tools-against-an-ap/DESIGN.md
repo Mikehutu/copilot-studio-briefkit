@@ -12,7 +12,7 @@ Internal Teams agent using MCP tools against an approved server plus SharePoint 
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: SharePoint, Microsoft Teams
+- Systems: (none named — confirm)
 - Actions: approval_workflow
 - Missing fields: none flagged
 
@@ -29,8 +29,6 @@ Internal Teams agent using MCP tools against an approved server plus SharePoint 
 - SharePoint
 
 ## Tools / actions
-- Connector actions for SharePoint (see connector reference)
-- Connector actions for Microsoft Teams (see connector reference)
 - Agent flow for multi-step deterministic logic + approvals
 - MCP server tools (generative orchestration required; classify MCP connector in DLP)
 

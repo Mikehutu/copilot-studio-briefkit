@@ -9,8 +9,6 @@
       "fi"
     ],
     "systems": [
-      "Microsoft Teams",
-      "Outlook",
       "Dataverse"
     ],
     "actions": [
@@ -40,8 +38,6 @@
     "SharePoint"
   ],
   "tools": [
-    "Connector actions for Microsoft Teams (see connector reference)",
-    "Connector actions for Outlook (see connector reference)",
     "Connector actions for Dataverse (see connector reference)",
     "Agent flow for multi-step deterministic logic + approvals"
   ],

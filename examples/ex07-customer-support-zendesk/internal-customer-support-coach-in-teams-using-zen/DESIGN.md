@@ -12,7 +12,7 @@ Internal customer support coach in Teams using Zendesk to check ticket status an
 - Audience: internal
 - Region profile: eu-fi
 - Languages: en, fi
-- Systems: Microsoft Teams, Zendesk
+- Systems: Zendesk
 - Actions: create_or_check_ticket, email_triage
 - Missing fields: none flagged
 
@@ -29,7 +29,6 @@ Internal customer support coach in Teams using Zendesk to check ticket status an
 - SharePoint
 
 ## Tools / actions
-- Connector actions for Microsoft Teams (see connector reference)
 - Connector actions for Zendesk (see connector reference)
 - Create/update ticket via ITSM connector or agent flow
 - Agent flow for multi-step deterministic logic + approvals
