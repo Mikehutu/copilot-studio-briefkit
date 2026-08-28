@@ -1,0 +1,1 @@
+Multi-agent router with specialist child agents for IT, HR and finance support, connected agents with handoff rules, Teams Finland.

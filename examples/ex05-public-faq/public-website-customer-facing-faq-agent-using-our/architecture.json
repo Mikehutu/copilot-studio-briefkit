@@ -1,0 +1,56 @@
+{
+  "intent": {
+    "raw_brief": "Public website customer-facing FAQ agent using our public website knowledge for product questions, with external authentication considerations.",
+    "name": "Public website customer-facing FAQ agent using our public we",
+    "audience": "external",
+    "region": "eu-fi",
+    "languages": [
+      "en",
+      "fi"
+    ],
+    "systems": [],
+    "actions": [],
+    "knowledge_hints": [
+      "Public website"
+    ],
+    "channels": [
+      "Custom website / Direct Line"
+    ],
+    "autonomous": false,
+    "multi_agent": false,
+    "computer_use": false,
+    "public_facing": true,
+    "missing": []
+  },
+  "tier": 1,
+  "tier_label": "Tier 1 Knowledge",
+  "pattern": "FAQ / knowledge agent",
+  "auth": "Authenticate manually (Entra or OAuth2) \u2014 do NOT use No authentication for personal data",
+  "environment_region": "Europe (EU/EFTA datacenters; align tenant + environments for EU Data Boundary)",
+  "generative_orchestration": true,
+  "knowledge": [
+    "Public website"
+  ],
+  "tools": [
+    "None beyond generative answers"
+  ],
+  "channels": [
+    "Custom website / Direct Line"
+  ],
+  "dlp_connectors": [
+    "Chat without Microsoft Entra ID authentication in Copilot Studio \u2192 Block for internal",
+    "HTTP \u2192 Business or endpoint-filtered",
+    "Microsoft Copilot Studio (triggers) \u2192 control if autonomous",
+    "Knowledge source with public websites and data in Copilot Studio \u2192 review"
+  ],
+  "risks": [
+    "External channel needs explicit threat model and WAF/CDN review for Direct Line"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
+    "https://learn.microsoft.com/en-us/power-platform/admin/regions-overview"
+  ],
+  "starter_template": null
+}

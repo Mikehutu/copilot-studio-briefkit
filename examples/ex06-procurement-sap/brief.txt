@@ -1,0 +1,1 @@
+Internal procurement assistant in Teams using SAP for purchase order status and approvals, with invoice handling and reporting.

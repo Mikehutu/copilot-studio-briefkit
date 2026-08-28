@@ -153,7 +153,7 @@ client = OpenAI(
 resp = client.chat.completions.create(model="gpt-4o-mini", messages=[...])
 ```
 
-> Docs: https://learn.microsoft.com/en-us/azure/foundry/model-inference/quickstart —
+> Docs: https://learn.microsoft.com/en-us/azure/foundry/how-to/develop/sdk-overview —
 > the endpoint supports both `Responses` and `chat/completions`; uses `api-key`/Entra.
 
 ---

@@ -1,0 +1,72 @@
+{
+  "intent": {
+    "raw_brief": "Internal Teams agent using MCP tools against an approved server plus SharePoint knowledge for EU banking compliance questions.",
+    "name": "Internal Teams agent using MCP tools against an approved ser",
+    "audience": "internal",
+    "region": "eu-fi",
+    "languages": [
+      "en",
+      "fi"
+    ],
+    "systems": [
+      "SharePoint",
+      "Microsoft Teams"
+    ],
+    "actions": [
+      "approval_workflow"
+    ],
+    "knowledge_hints": [
+      "SharePoint"
+    ],
+    "channels": [
+      "Microsoft Teams"
+    ],
+    "autonomous": false,
+    "multi_agent": false,
+    "computer_use": false,
+    "public_facing": false,
+    "missing": []
+  },
+  "tier": 3,
+  "tier_label": "Tier 3 Action agents",
+  "pattern": "Action / tool-using agent",
+  "auth": "Authenticate with Microsoft (Entra via Teams/M365)",
+  "environment_region": "Europe (EU/EFTA datacenters; align tenant + environments for EU Data Boundary)",
+  "generative_orchestration": true,
+  "knowledge": [
+    "SharePoint"
+  ],
+  "tools": [
+    "Connector actions for SharePoint (see connector reference)",
+    "Connector actions for Microsoft Teams (see connector reference)",
+    "Agent flow for multi-step deterministic logic + approvals",
+    "MCP server tools (generative orchestration required; classify MCP connector in DLP)"
+  ],
+  "channels": [
+    "Microsoft Teams"
+  ],
+  "dlp_connectors": [
+    "Chat without Microsoft Entra ID authentication in Copilot Studio \u2192 Block for internal",
+    "HTTP \u2192 Business or endpoint-filtered",
+    "Microsoft Copilot Studio (triggers) \u2192 control if autonomous",
+    "Knowledge source with SharePoint and OneDrive in Copilot Studio \u2192 Business",
+    "MCP path uses connector DLP \u2014 classify MCP connector Business"
+  ],
+  "risks": [
+    "Use Dev/Test/Prod EU environments and managed solutions for production"
+  ],
+  "sources": [
+    "https://learn.microsoft.com/en-us/connectors/connector-reference/",
+    "https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/agent-extend-action-mcp",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-faqs",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-overview",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/alm",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
+    "https://learn.microsoft.com/en-us/power-platform/admin/regions-overview"
+  ],
+  "starter_template": "Employee Self-Service (IT or HR) if applicable"
+}

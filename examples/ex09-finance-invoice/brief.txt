@@ -1,0 +1,1 @@
+Internal finance agent in Teams for invoice handling and approval workflow with Dataverse and Outlook for email triage, Europe.

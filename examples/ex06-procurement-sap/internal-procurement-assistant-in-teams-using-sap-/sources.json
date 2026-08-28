@@ -1,0 +1,15 @@
+{
+  "sources": [
+    "https://learn.microsoft.com/en-us/connectors/connector-reference/",
+    "https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/admin-data-loss-prevention",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/configuration-end-user-authentication",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-faqs",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/flows-overview",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/alm",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio",
+    "https://learn.microsoft.com/en-us/microsoft-copilot-studio/security-and-governance",
+    "https://learn.microsoft.com/en-us/power-platform/admin/regions-overview"
+  ],
+  "generated": "2026-08-28"
+}

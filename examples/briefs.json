@@ -1,0 +1,54 @@
+{
+  "example_briefs": [
+    {
+      "id": "ex01-it-helpdesk",
+      "title": "Finnish IT helpdesk",
+      "brief": "Finnish enterprise IT helpdesk agent for employees in Teams. Password reset guidance, ServiceNow tickets, SharePoint IT docs. EU only."
+    },
+    {
+      "id": "ex02-hr-pto-workday",
+      "title": "HR PTO with Workday",
+      "brief": "Internal HR bot for PTO requests with Workday and SharePoint policies, Teams, Finnish and Swedish bilingual."
+    },
+    {
+      "id": "ex03-multi-agent-router",
+      "title": "Multi-agent support router",
+      "brief": "Multi-agent router with specialist child agents for IT, HR and finance support, connected agents with handoff rules, Teams Finland."
+    },
+    {
+      "id": "ex04-autonomous-compliance-alerts",
+      "title": "Autonomous compliance alerts",
+      "brief": "Autonomous agent that triggers when emails arrive and creates ServiceNow tickets for compliance alerts, with human approval for high-risk actions."
+    },
+    {
+      "id": "ex05-public-faq",
+      "title": "Public customer FAQ",
+      "brief": "Public website customer-facing FAQ agent using our public website knowledge for product questions, with external authentication considerations."
+    },
+    {
+      "id": "ex06-procurement-sap",
+      "title": "Procurement SAP purchase order",
+      "brief": "Internal procurement assistant in Teams using SAP for purchase order status and approvals, with invoice handling and reporting."
+    },
+    {
+      "id": "ex07-customer-support-zendesk",
+      "title": "Customer support coach (Zendesk)",
+      "brief": "Internal customer support coach in Teams using Zendesk to check ticket status and email triage for support agents."
+    },
+    {
+      "id": "ex08-mcp-knowledge-agent",
+      "title": "MCP knowledge agent",
+      "brief": "Internal Teams agent using MCP tools against an approved server plus SharePoint knowledge for EU banking compliance questions."
+    },
+    {
+      "id": "ex09-finance-invoice",
+      "title": "Finance invoice handling",
+      "brief": "Internal finance agent in Teams for invoice handling and approval workflow with Dataverse and Outlook for email triage, Europe."
+    },
+    {
+      "id": "ex10-salesforce-sales",
+      "title": "Sales assistant (Salesforce)",
+      "brief": "Internal sales assistant in Teams using Salesforce for customer data and order status, with scheduling and reporting."
+    }
+  ]
+}

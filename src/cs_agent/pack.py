@@ -112,7 +112,7 @@ def _build_md(a: Architecture) -> str:
         f"- Enable generative orchestration: **{a.generative_orchestration}** (required for MCP/CUA/multi-tool planning).",
         "  Docs: https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions",
         f"- If starter fits: {a.starter_template or 'skip templates; blank agent'}.",
-        "  ESS: https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/employee-self-service-agent",
+        "  ESS: https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview",
         "- Write strong **descriptions** for every topic/tool/knowledge source (planner uses them).",
         "",
         "### 1b. Capacity / licensing check",
@@ -173,7 +173,7 @@ def _build_md(a: Architecture) -> str:
         steps += [
             "### 10. Autonomous / CUA extras",
             "- Add triggers only after DLP review.",
-            "- Autonomous: https://learn.microsoft.com/en-us/microsoft-copilot-studio/autonomous-agents",
+            "- Autonomous: https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/autonomous-agents",
             "- Computer use last resort: https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use",
             "- Require HITL for high-risk actions.",
             "",
@@ -182,7 +182,7 @@ def _build_md(a: Architecture) -> str:
         steps += [
             "### 11. Multi-agent",
             "- Build child agents first; connect from router.",
-            "- https://learn.microsoft.com/en-us/microsoft-copilot-studio/connected-agents",
+            "- https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents",
             "",
         ]
     return f"""# Build in cloud — {a.intent.name}

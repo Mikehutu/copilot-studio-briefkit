@@ -148,8 +148,10 @@ GitHub Actions on `main` (push/PR): ruff, pytest, aimock probe, 20-brief benchma
 ## More
 
 - [CHANGELOG.md](CHANGELOG.md) — version history
+- [docs/EXAMPLES.md](docs/EXAMPLES.md) — every command & function with real output
+- [examples/](examples/README.md) — 10 real briefs → complete solution packs
 - [docs/PROVIDERS.md](docs/PROVIDERS.md) — local + Microsoft provider wiring
-- [kb/SOURCES.md](kb/SOURCES.md) — official URLs the packs cite
+- [kb/SOURCES.md](kb/SOURCES.md) — official URLs the packs cite (all HTTP-verified by CI)
 
 ## License
 

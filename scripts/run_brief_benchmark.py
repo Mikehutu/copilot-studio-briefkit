@@ -46,7 +46,7 @@ def score_pack(arch, pack: Path, learn: set[str]) -> dict:
         "sources_nonempty": len(src) >= 3,
         "dlp_named": "Chat without Microsoft Entra ID authentication" in " ".join(arch.dlp_connectors),
         "pac_dry_run": "cs-agent pac plan" in alm or "pac solution" in pac,
-        "no_secrets": not re.search(r"(client_secret|password\s*=)\s*\S+", design_txt + gov, re.I),
+        "no_secrets": not re.search(r"(client_secret|password\s*=)\s*\S+", design_txt + gov, re.IGNORECASE),
         "governance_metrics_hint": "Analytics" in (pack / "CHECKLIST.md").read_text(encoding="utf-8")
         or "App Insights" in (pack / "CHECKLIST.md").read_text(encoding="utf-8"),
     }

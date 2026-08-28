@@ -8,7 +8,7 @@ Knowledge only (SharePoint, documents, public websites, Dataverse, enterprise se
 
 ## Tier 2 — Structured self-service
 Topics, entities, basic connector tools (ITSM/HRIS). Internal auth required. ESS IT/HR starters.
-- https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/employee-self-service-agent
+- https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview
 
 ## Tier 3 — Action / tool agents
 Connector actions, agent flows, Power Automate flows, HTTP, custom connectors, M365 declarative agents.
@@ -17,12 +17,12 @@ Connector actions, agent flows, Power Automate flows, HTTP, custom connectors, M
 
 ## Tier 4 — Autonomous + Computer Use + Voice
 Event triggers, generative orchestration, Computer Use (GA), Windows 365 Agents MCP, advanced voice.
-- https://learn.microsoft.com/en-us/microsoft-copilot-studio/autonomous-agents
+- https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/autonomous-agents
 - https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use
 
 ## Tier 5 — Multi-agent
 Connected/child agents, router patterns, A2A.
-- https://learn.microsoft.com/en-us/microsoft-copilot-studio/connected-agents
+- https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents
 
 ## Tier 6 — Enterprise program
 Dev/Test/Prod, DLP, CoE, ALM, Agent 365, credit governance.

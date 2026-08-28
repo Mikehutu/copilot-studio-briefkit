@@ -1,0 +1,1 @@
+Internal sales assistant in Teams using Salesforce for customer data and order status, with scheduling and reporting.

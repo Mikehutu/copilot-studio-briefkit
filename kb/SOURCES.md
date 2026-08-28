@@ -10,8 +10,8 @@ Primary truth: Microsoft Learn. Seed HTML under docs/seed/ is secondary pattern 
 | MCP extend agent | https://learn.microsoft.com/en-us/microsoft-copilot-studio/agent-extend-action-mcp |
 | MCP add existing server | https://learn.microsoft.com/en-us/microsoft-copilot-studio/mcp-add-existing-server-to-agent |
 | Knowledge sources | https://learn.microsoft.com/en-us/microsoft-copilot-studio/knowledge-copilot-studio |
-| Autonomous agents | https://learn.microsoft.com/en-us/microsoft-copilot-studio/autonomous-agents |
-| Connected agents | https://learn.microsoft.com/en-us/microsoft-copilot-studio/connected-agents |
+| Autonomous agents | https://learn.microsoft.com/en-us/microsoft-copilot-studio/guidance/autonomous-agents |
+| Connected agents | https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-add-other-agents |
 | Computer use | https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use |
 | What's new | https://learn.microsoft.com/en-us/microsoft-copilot-studio/whats-new |
 | Geo data residency | https://learn.microsoft.com/en-us/microsoft-copilot-studio/geo-data-residency |
@@ -27,7 +27,7 @@ Primary truth: Microsoft Learn. Seed HTML under docs/seed/ is secondary pattern 
 | Direct Line connect | https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-directline |
 | Trust Center | https://www.microsoft.com/trustcenter |
 | Agent 365 | https://learn.microsoft.com/en-us/microsoft-agent-365/overview |
-| ESS agent | https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/employee-self-service-agent |
+| ESS agent | https://learn.microsoft.com/en-us/microsoft-365/copilot/employee-self-service/overview |
 | Declarative agents | https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent |
 | Generative orchestration | https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-generative-actions |
 | Computer use | https://learn.microsoft.com/en-us/microsoft-copilot-studio/computer-use |

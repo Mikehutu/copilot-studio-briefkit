@@ -1,0 +1,1 @@
+Internal HR bot for PTO requests with Workday and SharePoint policies, Teams, Finnish and Swedish bilingual.

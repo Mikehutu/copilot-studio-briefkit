@@ -1,0 +1,1 @@
+Autonomous agent that triggers when emails arrive and creates ServiceNow tickets for compliance alerts, with human approval for high-risk actions.

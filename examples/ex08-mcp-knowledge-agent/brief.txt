@@ -1,0 +1,1 @@
+Internal Teams agent using MCP tools against an approved server plus SharePoint knowledge for EU banking compliance questions.

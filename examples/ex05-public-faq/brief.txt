@@ -1,0 +1,1 @@
+Public website customer-facing FAQ agent using our public website knowledge for product questions, with external authentication considerations.

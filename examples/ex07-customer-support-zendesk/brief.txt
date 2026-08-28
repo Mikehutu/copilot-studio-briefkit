@@ -1,0 +1,1 @@
+Internal customer support coach in Teams using Zendesk to check ticket status and email triage for support agents.

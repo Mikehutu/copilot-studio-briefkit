@@ -1,0 +1,1 @@
+Finnish enterprise IT helpdesk agent for employees in Teams. Password reset guidance, ServiceNow tickets, SharePoint IT docs. EU only.
