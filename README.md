@@ -1,6 +1,10 @@
-# cs-agent — Copilot Studio Enterprise Agent
+<p align="center">
+  <img src="assets/logo.png" alt="copilot-studio-briefkit logo" width="140">
+</p>
 
-A **design-first CLI** that turns a business brief into an enterprise **solution pack** for [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/) — architecture, governance, cloud build steps, ALM, and Learn citations.
+# Copilot Studio Briefkit
+
+**`cs-agent`** — a **design-first CLI** that turns a business brief into an enterprise **solution pack** for [Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/) — architecture, governance, cloud build steps, ALM, and Learn citations.
 
 It is **not** Copilot Studio itself, not a bot runtime, and **not** a tenant publisher. You (or a maker) still build in `copilotstudio.microsoft.com`. This tool stops the usual failure mode: unauthenticated agents, wrong region, invented connectors, and no DLP plan.
 
@@ -46,8 +50,8 @@ If you need a live bot in a customer tenant, this repo only **guides** that work
 Python 3.11+.
 
 ```bash
-git clone https://github.com/Mikehutu/cs-agent.git
-cd cs-agent
+git clone https://github.com/Mikehutu/copilot-studio-briefkit.git
+cd copilot-studio-briefkit
 python3 -m venv .venv && . .venv/bin/activate
 pip install -e ".[dev]"
 pytest -q
